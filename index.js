@@ -29,6 +29,6 @@ function driversByName(col) {
 
 function totalRevenue(col) {
   return col.reduce( function (agg, el, i arr) {
-    return agg.revenue + el.revenues
+    return agg.revenue + el.revenue
   })
 }
