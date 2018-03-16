@@ -2,6 +2,6 @@
 
 function logDriverNames(col) {
   col.forEach(function (el, i, arr) {
-    console.log(el)
+    console.log(el.name)
    })
 }
