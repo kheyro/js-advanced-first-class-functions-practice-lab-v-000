@@ -16,7 +16,7 @@ function logDriversByHometown(col, town) {
 }
 
 function driversByRevenue(col) {
-  let newArr = col
+  let newArr = []
   return newArr.sort(function (dr1, dr2) {
     console.log(newArr, col)
     return dr1.revenue - dr2.revenue
