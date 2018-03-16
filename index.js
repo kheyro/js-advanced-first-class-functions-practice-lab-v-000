@@ -34,6 +34,6 @@ function totalRevenue(col) {
   }, 0)
 }
 
-funtion averageRevenue(col) {
+function averageRevenue(col) {
   return totalRevenue(col) / col.length
 }
