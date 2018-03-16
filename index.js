@@ -7,8 +7,10 @@ function logDriverNames(col) {
 }
 
 
-function calledWithExactly(name) {
+function calledWithExactly(col, town) {
   col.forEach( function (el, i, arr) {
-    if (el.name
+    if (el.hometown === town ) {
+      console.log(el.name)
+    }
   })
 }
