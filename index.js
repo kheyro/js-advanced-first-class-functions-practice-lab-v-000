@@ -31,5 +31,5 @@ function totalRevenue(col) {
   return col.reduce( function (agg, el, i, arr) {
     console.log(agg + el.revenue)
     return agg + el.revenue
-  })
+  }, 0)
 }
