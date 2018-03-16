@@ -33,3 +33,9 @@ function totalRevenue(col) {
     return agg + el.revenue
   }, 0)
 }
+
+funtion averageRevenue(col) {
+  return col.reduce( function (agg, el, i, arr) {
+    return agg + el.revenue
+  }, 0)
+}
