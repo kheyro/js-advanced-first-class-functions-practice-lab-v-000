@@ -20,3 +20,9 @@ function driversByRevenue(col) {
     return dr1.revenue - dr2.revenue
   })
 }
+
+function driversByName(col) {
+  return [...col].sort(function (dr1, dr2) {
+    return dr1.name.localeCompare(dr2.name)
+  })
+}
