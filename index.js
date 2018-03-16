@@ -26,9 +26,3 @@ function driversByName(col) {
     return dr1.name.localeCompare(dr2.name)
   })
 }
-
-function totalRevenue(col) {
-  return col.reduce( function (agg, el, i arr) {
-    return agg.revenue + el.revenues
-  })
-}
